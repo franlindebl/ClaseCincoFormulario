@@ -1,0 +1,9 @@
+<p>alta-usuario:</p>
+
+<form>
+  <label for="userName">Nombre:</label>
+  <input [(ngModel)]="username" type="text" name="userName" id="userName">
+  <button (click)="guardarUsuario()" type="button">Guardar</button>
+</form>
+
+<p>Valor: {{ username }}</p>
